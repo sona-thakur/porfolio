@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height:750px;
+    background-color:rgb(235, 180, 78);
+    display:flex;
+}
+.sidebar{
+    width:22%;
+    height:750px;
+    background-color:black;
+    overflow-y: scroll;
+}
+ul{
+  text-decoration: none;
+  text-align:center;
+  margin-top: 53%;
+ 
+}
+li{
+    padding:22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+li a{
+    text-decoration: none;
+    padding:20px;
+    color:white;
+    font-size:20px;
+}
+a:hover{
+    border-bottom: 1px solid rgb(113, 212, 219);
+    color:grey;
+    font-weight: bold;
+    opacity:0.5;
+}
+
+/*main part start*/
+.main{
+    position:relative;
+    top:15%;
+    width:80%;
+    height:500px;
+    background-color: white;
+    display:flex;
+    justify-content:space-around;
+}
+.intro{
+   margin-top: 16%;
+}
+h1{
+    font-size: 55px;
+    color:cadetblue;
+}
+h3{ 
+    font-size: 30px;
+    font-weight: bolder;
+    color:rgb(32, 39, 41);
+    opacity:0.9;
+    font-style: italic;
+}
+p{
+    margin-top:5px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgba(77, 82, 82, 0.523);
+}
+details{
+    margin-top:8px;
+    color:rgb(28, 47, 188);
+}
+details:hover{
+    background-color: rgba(255, 0, 0, 0.406);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+summary{
+    font-size: large;
+}
+.btn{
+    display:flex;
+    margin-top: 26px;
+}
+.btn button{
+    background-color:cadetblue;
+    color:white;
+    padding:7px 17px;
+    border-radius: 15px;
+    font-size: large;
+    border:1px solid black;
+}
+button:hover{
+    background-color: rgb(244, 174, 46);
+    color:brown;
+    font-style:italic;
+    border:none;
+    opacity:0.7;
+}
+
+.image{
+    margin-top: 5%;
+}
+.image:hover{
+    filter:blur(5px);
+    transition: 3s;
+}
+/*Contact page css*/
+.menu{
+    background-image: url(images/woods.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:760px;
+    overflow-x:hidden;
+}
+.form{
+    position: relative;
+    top:100px;
+    left:450px;
+    filter: blur(-1px);
+}
+span{
+    color:rgb(88, 70, 60);
+    font-size:38px;
+}
+span:hover{
+    border-bottom:3px solid rgb(151, 230, 242);
+    letter-spacing: 15px;
+    opacity:0.5;
+}
+form{
+    width:400px;
+    height:500px;
+    background-color:transparent;
+    padding-top: 2%;
+}
+fieldset{
+    font-size: 18px;
+    color:rgb(241, 158, 4);
+    border-radius: 15px;
+    text-align: center;
+}
+fieldset input{
+    width:370px;
+    height:38px;
+    background-color:rgb(222, 247, 253);
+    border-radius: 10px;
+    border-color:lightskyblue;
+
+}
+input:hover{
+    border:2px solid orange;
+    opacity:0.5;
+    width:350px;
+}
+/* portfolio css start here!*/
+
+.info{
+    width:100%;
+    height:880px;
+    background-color:white;
+    margin:auto;
+    background-image: url(images/bridge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*filter: blur(1px);*/
+}
+table, th, td{
+    position: relative;
+    top:10%;
+    border: 2px solid maroon;
+    color:grey;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 25px;
+    margin-top: -10px;
+}
+table:nth-child(odd){
+    background-color:rgb(239, 174, 53);
+}
+table caption{
+    font-size: larger;
+    border-bottom: 3px solid grey;
+}
+
+th{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:maroon;
+    opacity:0.6;
+
+}
+th, td{
+    /*font-size: 15px;*/
+    background-color:lightgrey;
+    padding:10px;
+
+}
+th:hover{
+    background-color: cadetblue;
+}
+td:hover{
+    background-color:rgb(234, 169, 85);
+}
+/*about page add csss..*/
+
+.about{
+    background-color: beige;
+    height:2700px;
+    width:100%;
+}
+h4{
+    background-color: rgb(243, 174, 44);
+    color:grey;
+    font-size:30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position:sticky;
+    top:0%;
+}
+.in{
+    width:60%;
+    height:45px;
+    margin-left: 250px;
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 7px;
+}
+.input:hover{
+    border: 3px solid orange;
+}
+i{
+    background-color: rgb(255, 200, 0);
+    padding:10.3px;
+    border: 2px solid orange;
+    font-size: larger;
+}
+h5{
+    font-size:20px;
+    text-align: center;
+    color:maroon;
+    background-color: blanchedalmond;
+}
+iframe{
+    margin-top: 4%;
+    margin-left:17%;
+    box-shadow: 15px 15px 40px rgb(226, 224, 174);
+    border-radius: 30;
+}
+.anchor{
+    display:inline-flex;
+    padding: 22px 80px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color:grey;
+    background-color: black;
+    margin:5px;
+    border-radius:20px;
+}
+.about .anchor{
+    text-align: center;
+}
+.anch{
+    border-bottom: lightgrey;
+    background-color: rgba(240, 248, 255, 0.537);
+    text-align: center;
+    font-size: small;
+    margin-left: 44%;
+    color:red;
+}
+/*service css */
+.head{
+    background-color: rgb(246, 211, 54); 
+    position:sticky;
+    top:0%;
+}
+.contain{
+    background-color:rgba(214, 220, 220, 0.616); 
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    width:100%;
+    height:70px;
+   background-color: rgb(246, 211, 54); 
+}
+.foot{
+    height: 400px;
+    width:100%;
+    background-color: black;
+}
+.water{
+    font-size: 140px;
+    text-align: center;
+    background-image: url(images/woods.jpg);
+    background-size:cover;
+    background-position:center;
+    color:transparent;
+    -webkit-background-clip:text;
+}
+
+/* css end here----*/
